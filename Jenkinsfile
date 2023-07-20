@@ -1,7 +1,3 @@
-mvn deploy
-scp /root/workspace/build/feature/target/*.war root@172.31.31.24:/opt/apache-tomcat-9.0.55/webapps
-
-
 pipeline {
 
 	agent { label 'dev-slaves'}
